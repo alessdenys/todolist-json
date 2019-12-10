@@ -1,0 +1,22 @@
+{
+  "name": "todolist-json",
+  "version": "1.0.0",
+  "description": "Projet to do list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessdenys/todolist-json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alessdenys/todolist-json/issues"
+  },
+  "homepage": "https://github.com/alessdenys/todolist-json#readme",
+  "devDependencies": {
+    "tailwindcss": "^1.1.4"
+  }
+}
