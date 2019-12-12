@@ -1,0 +1,6 @@
+.btn-blue {
+  @apply text-white bg-blue-500 inline inline-block w-20 rounded-lg my-4;
+}
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
