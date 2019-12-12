@@ -1,3 +1,17 @@
+<?php 
+    if(isset($_GET['add'])){
+        $option = array[
+            'task' => FILTER_SANITIZE_STRING
+        ]
+    }
+    $result = filter_input_array(INPUT_GET, $option)
+    if ($result != null AND $result != FALSE) {
+
+    }else{
+
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,13 +22,15 @@
     <title>Document</title>
     
 </head>
-<body class="container m-auto flex">
+<body class="container m-auto flex bg ">
     <div class="m-auto justify-center">
         <h1 class="text-4xl center">To do List</h1>
         <section id="inputSection">
             <h2 class="">Add new task</h2>
-            <input class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-auto appearance-none leading-normal" id="input" type="text"> 
-            <button class="btn-blue" id="ajout">Add</button>
+            <form action="<?php $_SERVER['PHP_SELF']?>" method='POST'>
+                <input class="input" id="task" type="text"> 
+                <button class="btn-blue" id="add">Add</button>
+            </form>
         </section>
         <section class="my-4" id="todoSection">
             <h2>Task left : </h2>
