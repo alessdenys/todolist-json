@@ -17,7 +17,7 @@
       </section>
       <section class="my-4" id="todoSection">
         <h2>Task left :</h2>
-        <p></p>
+        <p><?php echo $result ?? " "; ?></p>
       </section>
       <section class="my-4" id="doneSection">
         <h2>Task done :</h2>
