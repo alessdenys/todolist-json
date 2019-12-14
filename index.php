@@ -17,10 +17,15 @@
       </section>
       <section class="my-4" id="todoSection">
         <h2>Task left :</h2>
-        <p><?php echo $result ?? " "; ?></p>
+        <? require "src/php/contenu.php" ?>
+        <form action="<?php $_SERVER['PHP_SELF']?>" method="POST">
+          <?php forLoopJson($taskTodo) ?>
+          <input type="submit" class="btn-blue" id="save" name="save" value="Save">
+        </form>
       </section>
       <section class="my-4" id="doneSection">
         <h2>Task done :</h2>
+        <? require "src/php/done.php" ?>
       </section>
     </div>
   </body>

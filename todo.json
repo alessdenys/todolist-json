@@ -1,5 +1,4 @@
 [
-  { "task": "HAHAHAHAHA", "done": false },
-  { "task": "HAHAHAHAHA", "done": false },
-  { "task": "efe", "done": false }
+  { "task": "Count number of sheep", "done": false },
+  { "task": "count number of stars", "done": false }
 ]
