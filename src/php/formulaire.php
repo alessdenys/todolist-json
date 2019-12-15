@@ -8,7 +8,7 @@
             $taskTodo = json_decode($json, true);
             $jsonTask = ["task" => $result,"done"=>false];
             $taskTodo[] = $jsonTask;
-            $enJson = json_encode($taskTodo);
+            $enJson = json_encode($taskTodo, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
             file_put_contents("todo.json",$enJson);
         }
     }
