@@ -7,5 +7,5 @@ function doneList($array){
 ?>
 
 <ul>
-<? doneList($done) ?>
+<?php doneList($done) ?>
 </ul>

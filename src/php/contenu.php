@@ -18,6 +18,8 @@
     
 ?>
 <form action="<?php "index.php"?>" method="POST">
-    <?php doList($do);?>
+        <div id="dropZone" >
+            <?php doList($do);?>
+        </div>
     <input type="submit" class="btn-blue" id="save" name="save" value="Save">
 </form>
