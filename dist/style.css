@@ -106,7 +106,8 @@ strong {
  */
 
 button,
-input {
+input,
+select {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -128,7 +129,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button { /* 1 */
+button,
+select { /* 1 */
   text-transform: none;
 }
 
@@ -316,6 +318,13 @@ button:focus {
   outline: 5px auto -webkit-focus-ring-color;
 }
 
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * Tailwind custom reset styles
  */
@@ -398,7 +407,8 @@ h2 {
  */
 
 button,
-input {
+input,
+select {
   padding: 0;
   line-height: inherit;
   color: inherit;
