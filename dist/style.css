@@ -316,6 +316,13 @@ button:focus {
   outline: 5px auto -webkit-focus-ring-color;
 }
 
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * Tailwind custom reset styles
  */
@@ -481,6 +488,14 @@ canvas {
 
 .bg-white {
   background-color: #fff;
+}
+
+.bg-gray-400 {
+  background-color: #cbd5e0;
+}
+
+.bg-yellow-200 {
+  background-color: #fefcbf;
 }
 
 .border-gray-300 {
